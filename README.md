@@ -1,6 +1,6 @@
 # asyncLoader
 
-### asyncLoader - simple asynchronous script and stylesheet loading with ( optional ) callback.
+### asyncLoader - simple asynchronous script and stylesheet loading with callback.
 
 
 ##### live examples:
@@ -30,7 +30,6 @@ asyncLoader(
         'callback':function() {
             $('body').fadeIn( 800 );
             $('#test').delay(800).fadeIn();
-            // Syntax Highlighting
             $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
         }
     }
